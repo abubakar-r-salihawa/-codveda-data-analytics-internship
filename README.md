@@ -4,7 +4,7 @@
 **Intern ID:** CV/AI/82271  
 **Role:** Data Analysis Intern
 
-This repository contains the completed Codveda data analytics internship tasks. Two tasks were completed from each level, following the task brief.
+This repository contains the completed Codveda Data Analytics internship project code. Two tasks were completed from each level, following the internship task brief.
 
 ## Completed tasks
 
@@ -22,26 +22,28 @@ This repository contains the completed Codveda data analytics internship tasks. 
 
 ## Repository structure
 
-- `Level_1_Basic/` — data cleaning and EDA notebook
-- `Level_2_Intermediate/` — regression and time-series notebook
-- `Level_3_Advanced/` — classification and sentiment-analysis notebook
-- `data/` — datasets required to reproduce the notebooks
-- `outputs/` — generated tables and figures after running the notebooks
+- `Level_1_Basic/` — Python analysis for data cleaning and EDA
+- `Level_2_Intermediate/` — Python analysis for regression and time series
+- `Level_3_Advanced/` — Python analysis for classification and sentiment analysis
+- `data/README.md` — dataset names and expected file locations
 - `requirements.txt` — Python dependencies
+
+The three levels are kept separately so each stage of the internship can be reviewed independently.
 
 ## How to run
 
 1. Clone the repository.
 2. Install the packages in `requirements.txt`.
-3. Open each notebook from its level folder.
-4. Run the cells from top to bottom.
+3. Place the supplied internship datasets in the `data/` folder using the filenames listed in `data/README.md`.
+4. Run each Python file from its corresponding level folder.
+5. Generated tables and figures will be saved automatically under `outputs/level1`, `outputs/level2`, and `outputs/level3`.
 
-The notebooks use relative paths and fixed random states where appropriate so that the main modelling results can be reproduced.
+The scripts use relative paths and fixed random states where appropriate so the main modelling results can be reproduced.
 
-## Note on the stock-price dataset
+## Project notes
 
-The original stock-price file supplied for the internship is about 24 MB. To keep this repository lightweight, `data/stock_prices.csv` contains the AAPL observations used for the time-series task together with the rows containing missing price values used to demonstrate the Level 1 cleaning workflow. The notebook logic is unchanged and can also be run against the full source file if it is placed at the same path.
+The repository focuses on the analysis code and methodology. The original datasets remain with the final internship submission package because they were supplied specifically for the internship exercise and include a large stock-price file. The scripts preserve the required workflow and can be executed against those source files without changing their paths.
 
 ## Tools used
 
-Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn, statsmodels, NLTK and TextBlob.
+Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn, statsmodels, NLTK, TextBlob and WordCloud.
