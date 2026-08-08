@@ -1,0 +1,16 @@
+Feature,Importance
+num__Customer service calls,0.13935223735298685
+num__Total day charge,0.13122195338061987
+num__Total day minutes,0.12597660362725874
+cat__International plan_No,0.055057441192323954
+cat__International plan_Yes,0.052944345558905447
+num__Total eve charge,0.04939968899240983
+num__Total eve minutes,0.045704795822075324
+num__Total intl minutes,0.04004483367243713
+num__Total intl charge,0.03714684970626377
+num__Total intl calls,0.03547463470018675
+num__Total night minutes,0.03503062050462262
+num__Total night charge,0.03417529301454647
+num__Total day calls,0.029798463943469276
+num__Total night calls,0.029152897125110266
+num__Account length,0.028142648107247568

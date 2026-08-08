@@ -1,0 +1,10 @@
+{'model__max_depth': 14, 'model__min_samples_leaf': 2, 'model__n_estimators': 250}
+
+              precision    recall  f1-score   support
+
+      Stayed       0.96      0.99      0.97       572
+     Churned       0.92      0.73      0.81        95
+
+    accuracy                           0.95       667
+   macro avg       0.94      0.86      0.89       667
+weighted avg       0.95      0.95      0.95       667
